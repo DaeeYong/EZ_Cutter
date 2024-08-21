@@ -1,4 +1,2 @@
-test/
-video/
-result/
-clip_label/
+*.MP4
+*.mp4
