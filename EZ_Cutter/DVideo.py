@@ -8,7 +8,6 @@ class DVideo:
 
     def _get_meta(self):
         frame_cnt = int(self.cap.get(cv2.CAP_PROP_FRAME_COUNT))
-        print('frame_cnt: ',frame_cnt)
         #fps
         fps = self.cap.get(cv2.CAP_PROP_FPS)
         #length of video(sec)
